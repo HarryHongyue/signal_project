@@ -9,7 +9,15 @@ import com.data_management.Patient;
  * relies on a {@link DataStorage} instance to access patient data and evaluate
  * it against specific health criteria.
  */
+
+/**
+ * The {@code AlertGenerator} class is responsible for monitoring patient data
+ * and generating alerts when certain predefined conditions are met. This class
+ * relies on a {@link DataStorage} instance to access patient data and evaluate
+ * it against specific health criteria.
+ */
 public class AlertGenerator {
+    // Changed variable name to lowerCamelCase to follow Google Java Style Guide.
     private DataStorage dataStorage;
 
     /**
@@ -27,10 +35,8 @@ public class AlertGenerator {
     /**
      * Evaluates the specified patient's data to determine if any alert conditions
      * are met. If a condition is met, an alert is triggered via the
-     * {@link #triggerAlert}
-     * method. This method should define the specific conditions under which an
-     * alert
-     * will be triggered.
+     * {@link #triggerAlert} method. This method should define the specific conditions
+     * under which an alert will be triggered.
      *
      * @param patient the patient data to evaluate for alert conditions
      */
@@ -50,3 +56,4 @@ public class AlertGenerator {
         // Implementation might involve logging the alert or notifying staff
     }
 }
+
