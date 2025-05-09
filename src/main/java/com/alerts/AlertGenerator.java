@@ -2,6 +2,7 @@ package com.alerts;
 
 import com.data_management.DataStorage;
 import com.data_management.Patient;
+import com.alerts.Alert;
 
 /**
  * The {@code AlertGenerator} class is responsible for monitoring patient data
@@ -10,14 +11,9 @@ import com.data_management.Patient;
  * it against specific health criteria.
  */
 
-/**
- * The {@code AlertGenerator} class is responsible for monitoring patient data
- * and generating alerts when certain predefined conditions are met. This class
- * relies on a {@link DataStorage} instance to access patient data and evaluate
- * it against specific health criteria.
- */
+// Changed variable name to lowerCamelCase
 public class AlertGenerator {
-    // Changed variable name to lowerCamelCase to follow Google Java Style Guide.
+    
     private DataStorage dataStorage;
 
     /**

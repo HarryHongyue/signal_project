@@ -33,7 +33,7 @@ public class PatientRecord {
     }
 
     /**
-     * Returns the patient ID associated with this record.
+     * 
      * 
      * @return the patient ID
      */
@@ -42,7 +42,7 @@ public class PatientRecord {
     }
 
     /**
-     * Returns the measurement value of this record.
+     * 
      * 
      * @return the measurement value
      */
@@ -51,7 +51,7 @@ public class PatientRecord {
     }
 
     /**
-     * Returns the timestamp when this record was taken.
+     * 
      * 
      * @return the timestamp in milliseconds since epoch
      */
@@ -60,7 +60,7 @@ public class PatientRecord {
     }
 
     /**
-     * Returns the type of record (e.g., "ECG", "Blood Pressure").
+     * 
      * 
      * @return the record type
      */

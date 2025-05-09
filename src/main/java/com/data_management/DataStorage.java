@@ -5,6 +5,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import com.alerts.AlertGenerator;
+import com.data_management.PatientRecord;
 
 /**
  * Manages storage and retrieval of patient data within a healthcare monitoring
